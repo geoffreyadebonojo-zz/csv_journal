@@ -8,10 +8,8 @@ as follows:
 	1. It searches current dir for a csv file with the day’s date
 	2. if it finds it, it opens it
 	2. if it doesn’t, it writes a new one using today’s date and opens that.
-	3. It displays the contents of the file, displaying the timestamp for each line
-  of code beside the line.
-	4. While the file is open the user is able to write lines in the command line
-  and write them to the csv file named for today’s date.
+	3. It displays the contents of the file, displaying the timestamp for each line of code beside the line.
+	4. While the file is open the user is able to write lines in the command line and write them to the csv file named for today’s date.
 	5. The user can enter as many lines as they want. As soon as you hit enter, that line is written to the file. It also immediately reopens the file so that you can see that line. When you’re done, just enter quit to exit back to the main menu.
 
 The early iterations of this project used .txt. But for the data structure I was
